@@ -1,0 +1,25 @@
+.image{
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: darkslategray;
+}
+
+div.card-holder {
+    background-color: rgba(red, green, rgb(65, 65, 80), 0.5);
+}
+
+h1 {
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    color: white;
+    background-color: darkgray;
+    padding: 15px;
+}

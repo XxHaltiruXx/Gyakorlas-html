@@ -1,0 +1,28 @@
+
+
+https://www.w3schools.com/bootstrap/default.asp
+
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h
+
+Rácsszerkezet
+==============
+A CSS Bootstrap 4 rácsrendszernek öt alapvető osztálya van (méret szerint):
+.col- (extra kicsi eszköz, kép szélessége kisebb, mint 576 képpont)
+.col-sm- (kis eszköz, kép szélessége nagyobb, vagy egyenlő, mint 576 képpont)
+.col-md- (közepes eszköz, kép szélessége nagyobb, vagy egyenlő, mint 768 képpont)
+.col-lg- (nagy eszköz, kép szélessége nagyobb, vagy egyenlő, mint 992 képpont)
+.col-xl- (extra nagy eszköz, kép szélessége nagyobb, vagy egyenlő, mint 1200 képpont)
+
+A rácsrendszer alapvető struktúrája:
+
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+
+<div class="container bg-light border">
+<div class="row">
+<div class="col-sm-9">nagy</div>
+<div class="col-sm-3">kicsi</div>
+</div>
+</div>

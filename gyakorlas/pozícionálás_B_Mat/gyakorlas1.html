@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToronyX</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div {
+            border: black 1px solid;
+            width: 180px;
+            height: 210px;
+            background-color: rgb(217, 255, 0);
+            padding: 15px;
+        }
+
+        .statikus {
+            position: static;
+        }
+
+        .relativ {
+            position: relative;
+            top: -35px;
+            left: -50px;
+            background-color: aqua;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 35px;
+            left: 180px;
+            background-color: aquamarine;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 35px;
+            left: 210px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div> <b>Alapértelmezett. A HTML elem a szövegfolyamban eredeti helyén marad.</b>
+
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem illo ducimus, voluptas reiciendis
+        dolorem. Dolor quae odio, quam voluptate aliquam molestias
+    </div>
+
+    <div class="Statikus"><b>Statikus</b> Alapértelmezett. A HTML elem a szövegfolyamban eredeti helyén marad.</div>
+
+    <div class="relativ"><b>Relatív</b> A HTML elemet egy általunk megadott értékkel eltolhatunk az eredeti helyzetéhez
+        képest, de továbbra is a szövegfolyamban marad.</div>
+
+    <div class="absolute"><b>Abszolút</b> A HTML elem helyzete teljesen független a szövegfolyamtól. Helyzetét azon
+        tárolótömbjéhez viszonyítva adhatjuk meg, amely a dokumentumfán az utolsó relatív helyzetmegadású őse az
+        elemnek. Ha ilyen nincs akkor a body elemhez képest.</div>
+
+    <div class="fixed"><b>Fixed</b>A böngészőablak látható részéhez rögzített lesz a HTML elem, és így mindig látható
+        marad. A független helyzetmegadás speciális esete, ahol a képernyő a viszonyítási pont.</div>
+</body>
+
+</html>

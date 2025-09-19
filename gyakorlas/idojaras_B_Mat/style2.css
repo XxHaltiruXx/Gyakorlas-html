@@ -1,0 +1,80 @@
+div.container {
+    width: 900px;
+    height: 480px;
+    padding-top: 10px;
+    background-image: url(bg_napsuteses_1a.jpg);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+
+}
+
+div.card-holder {
+    display: flex;
+    justify-content: center;
+}
+
+div.card {
+    width: 150px;
+    height: 230px;
+    background-color: #fae6fa;
+    border-radius: 20px;
+    border: 2px solid black;
+    float: left;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: none;
+}
+
+h2 {
+    color: brown;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h1::first-letter,
+h3::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+
+
+p.day {
+    color: brown;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.min,
+p.max {
+    font-size: 26px;
+    line-height: 140%;
+    margin: auto;
+}
+
+p.min {
+    color: blue;
+    margin-top: 15px;
+}
+
+p.max {
+    color: red;
+}

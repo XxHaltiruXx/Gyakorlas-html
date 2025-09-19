@@ -1,0 +1,61 @@
+div.container {
+    width: 900px;
+    height: 430px;
+    padding-top: 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+
+}
+
+div.card-holder {
+    display: flex;
+    justify-content: center;
+}
+
+div.card {
+    width: 150px;
+    height: 230px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid darkgray;
+    float: left;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+h2 {
+    color: red;
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+p.day {
+    font-style: italic;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+p.min,p.max {
+    font-size: 26px;
+    line-height: 140%;
+    margin: auto;
+    font-weight: bold;
+}
+
+p.min {
+    color: blue;
+    margin-top: 15px;
+}
+
+p.max {
+    color: red;
+}

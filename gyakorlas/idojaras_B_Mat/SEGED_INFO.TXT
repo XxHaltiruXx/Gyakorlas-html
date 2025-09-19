@@ -1,0 +1,25 @@
+CONTAINER
+800X430 px
+belső margó 10 px
+felső margó 30px
+háttérszin: világoskék
+keret kerekítése 20px
+keret árnyékolása 5px 5px 5px
+
+EGYNAP
+szélesség 150px
+háttérszin: fehér
+keret kerekítése 20px
+keret vonala  2px széles folytonos sötétszürke vonal
+belső margó 20px
+
+betűk hétnapja kivételével félkövérek, a hét napja (pl: hétfő) dőlt
+a dátum és a maxhőm piros,
+a minhőm kék színű
+
+nap sorszám: 40px méretű, piros
+hét napjai: betű méret: 22px, dőlt
+minhőm, maxhőm betű méret : 26px  line-height: 140%;
+
+
+
